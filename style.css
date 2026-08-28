@@ -7,6 +7,8 @@
 
 main{
     border: 2px solid black;
+    width: 350px;
+    margin-inline: auto;
 }
 
 .RG{
@@ -22,4 +24,37 @@ a{
     height: 50px;
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.numeral1, .numeral2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 90px;
+    height: 100px;
+}
+.numeral2{
+    margin-left: -16px;
+}
+
+footer{
+    border: 1px solid black;
+    margin: 10px 20px 30px 40px;
+}
+
+.slaman > p{
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.PenaDeMorte{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 1px solid gray;
+}
+
+.sentencaDeMorte{
+    margin-top: 20px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+
 }
